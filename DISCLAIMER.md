@@ -1,1 +1,0 @@
-BAT BACnetSC Certificate Handler is an independent, unofficial third-party tool developed in a personal capacity. It carries no vendor affiliation, endorsement or support. The software is provided as is, without warranty. Review each certificate, its issuing authority and the deployment target before applying it to a live BACnet/SC system.
