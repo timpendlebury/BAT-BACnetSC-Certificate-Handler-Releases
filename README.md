@@ -15,9 +15,11 @@ Use the built-in certificate workflows for Desigo Optic and ABT Go. The app supp
 
 ## Download and install
 
-Signed installers will be published on the [GitHub Releases page](https://github.com/timpendlebury/BAT-BACnetSC-Certificate-Handler-Releases/releases). When a stable release is available, download `BATBACnetSCCertificateHandler-stable-Setup.exe`, verify its signature using the steps below, then run it. The installer includes the .NET runtime.
+Signed installers will be published on the [GitHub Releases page](https://github.com/timpendlebury/BAT-BACnetSC-Certificate-Handler-Releases/releases). When a stable release is available, download `BATBACnetSCCertificateHandler-stable-Setup.exe`, verify its signature using the steps below, then run it.
 
 ## Prerequisites
+
+The installer includes the .NET 10 Runtime, so you can run Setup without installing it separately.
 
 - A Windows x64 PC.
 - OpenSSL 3 or later. The app detects existing installations. Use **Browse for OpenSSL** to select an existing `openssl.exe` or **Install with WinGet** if WinGet is available.
