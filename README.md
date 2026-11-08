@@ -27,7 +27,11 @@ The installer includes the .NET 10 Runtime, so you can run Setup without install
 
 ## Updates
 
-Select **Releases** in the app to open the stable downloads page. To upgrade, download and verify the newer signed installer, finish any active work, close the app and run the installer.
+Installed builds with **Updates** check for a newer stable release at startup. To check manually, open **Updates** and select **Check for updates**. Select **Download update** to download and verify the signed release. When you have finished your work, select **Restart and update** to install it. The release check uses the public repository and requires no GitHub account.
+
+Windows must trust the publisher certificate to verify an in-app update. Follow the [publisher verification instructions](CODE_SIGNED.md) if verification fails because the publisher is untrusted.
+
+If you have version 0.1.2 or earlier, upgrade once using a signed Windows Setup that includes **Updates**.
 
 ## Repository contents
 
